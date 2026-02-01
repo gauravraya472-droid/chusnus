@@ -2,7 +2,7 @@ from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
-HER_NAME = "Please mero lado chusnus na hunxa?"  # 👈 change this
+HER_NAME = "Dai"  # 👈 change this
 
 HTML = f"""
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ HTML = f"""
 </head>
 <body>
 
-<h1>💘 {Dai}, Please mero lado chusnus na hunxa? 💘</h1>
+<h1>💘 {HER_NAME}, Please mero lado chusnus na hunxa? 💘</h1>
 
 <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif">
 
@@ -74,8 +74,8 @@ HTML = f"""
 
     function yesClick() {{
         document.body.innerHTML = `
-            <h1>💖 YAYYYY 💖</h1>
-            <h1>{Dai}, you made me the happiest person 😍</h1>
+            <h1>💖 Gha gha gha gha majja aayo 💖</h1>
+            <h1>{HER_NAME}, you made me the happiest person 😍</h1>
             <img src="https://media.giphy.com/media/l4FGpPki5v2Bcd6Ss/giphy.gif">
         `;
     }}
